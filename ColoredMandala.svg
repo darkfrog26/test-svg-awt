@@ -1,0 +1,81 @@
+<svg width="100%" height="100%" viewBox="0 0 600 600"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <desc>
+    Based on Openclipart images: 
+    Mandala Line Art by btj51q2 - https://openclipart.org/detail/244178/io
+    Prismatic Mandala by GDJ - https://openclipart.org/detail/244179/prismatic-mandala
+    
+    recreated with circle elements to demonstrate clipping and masking in SVG.
+    Great image for teaching students SVG
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+
+  <defs>
+    <mask id="m1">
+      <rect width="600" height="600" style="fill:white;" />
+      <circle cx="300" cy="150" r="150" style="fill:black;" />
+    </mask>
+
+    <clipPath id="p1">
+      <circle cx="300" cy="150" r="150" transform="rotate(165,300,300)" />
+    </clipPath>
+  </defs>
+
+  <circle cx="300" cy="150" r="150" style="fill:#29ABE2" transform="rotate(0,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#0071BC" transform="rotate(15,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#2E3192" transform="rotate(30,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#1B1464" transform="rotate(45,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#662D91" transform="rotate(60,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FF0000" transform="rotate(75,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FFFF00" transform="rotate(90,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#00FF00" transform="rotate(105,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#00FFFF" transform="rotate(120,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#0000FF" transform="rotate(135,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FF00FF" transform="rotate(150,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#C1272D" transform="rotate(165,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#ED1C24" transform="rotate(180,300,300)" />
+  
+  <g style="mask:url(#m1)">
+    <circle cx="300" cy="150" r="150" style="fill:#F15A24" transform="rotate(195,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#F7931E" transform="rotate(210,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#FBB03B" transform="rotate(225,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#FCEE21" transform="rotate(240,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#D9E021" transform="rotate(255,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#8CC63F" transform="rotate(270,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#39B54A" transform="rotate(285,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#009245" transform="rotate(300,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#006837" transform="rotate(315,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#22B573" transform="rotate(330,300,300)" />
+    <circle cx="300" cy="150" r="150" style="fill:#00A99D" transform="rotate(345,300,300)" />
+  </g>
+  
+  <circle cx="300" cy="150" r="150" style="fill:#29ABE2;clip-path:url(#p1);" transform="rotate(0,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#0071BC;clip-path:url(#p1);" transform="rotate(15,300,300)"/>
+  <circle cx="300" cy="150" r="150" style="fill:#2E3192;clip-path:url(#p1);" transform="rotate(30,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#1B1464;clip-path:url(#p1);" transform="rotate(45,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#662D91;clip-path:url(#p1);" transform="rotate(60,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FF0000;clip-path:url(#p1);" transform="rotate(75,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FFFF00;clip-path:url(#p1);" transform="rotate(90,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#00FF00;clip-path:url(#p1);" transform="rotate(105,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#00FFFF;clip-path:url(#p1);" transform="rotate(120,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#0000FF;clip-path:url(#p1);" transform="rotate(135,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FF00FF;clip-path:url(#p1);" transform="rotate(150,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#C1272D;clip-path:url(#p1);" transform="rotate(165,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#ED1C24;clip-path:url(#p1);" transform="rotate(180,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#F15A24;clip-path:url(#p1);" transform="rotate(195,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#F7931E;clip-path:url(#p1);" transform="rotate(210,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FBB03B;clip-path:url(#p1);" transform="rotate(225,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#FCEE21;clip-path:url(#p1);" transform="rotate(240,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#D9E021;clip-path:url(#p1);" transform="rotate(255,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#8CC63F;clip-path:url(#p1);" transform="rotate(270,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#39B54A;clip-path:url(#p1);" transform="rotate(285,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#009245;clip-path:url(#p1);" transform="rotate(300,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#006837;clip-path:url(#p1);" transform="rotate(315,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#22B573;clip-path:url(#p1);" transform="rotate(330,300,300)" />
+  <circle cx="300" cy="150" r="150" style="fill:#00A99D;clip-path:url(#p1);" transform="rotate(345,300,300)" />
+
+</svg>
