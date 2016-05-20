@@ -40,22 +40,22 @@ class SVGComponent(graphicsNode: GraphicsNode, maintainAspectRatio: Boolean = tr
 }
 
 object SVGComponent {
-  def apply(document: SVGDocument): SVGComponent = {
+  def apply(document: SVGDocument, maintainAspectRatio: Boolean): SVGComponent = {
     val userAgentAdapter = new UserAgentAdapter
     val bridgeContext = new BridgeContext(userAgentAdapter)
     val builder = new GVTBuilder
     val graphicsNode = builder.build(bridgeContext, document)
-    new SVGComponent(graphicsNode)
+    new SVGComponent(graphicsNode, maintainAspectRatio)
   }
 
-  def apply(url: String): SVGComponent = {
+  def apply(url: String, maintainAspectRatio: Boolean): SVGComponent = {
     val parser = XMLResourceDescriptor.getXMLParserClassName
     val factory = new SAXSVGDocumentFactory(parser)
     val document = factory.createDocument(url).asInstanceOf[SVGDocument]
-    apply(document)
+    apply(document, maintainAspectRatio)
   }
 
-  def apply(file: File): SVGComponent = {
-    apply(file.toURI.toURL.toString)
+  def apply(file: File, maintainAspectRatio: Boolean): SVGComponent = {
+    apply(file.toURI.toURL.toString, maintainAspectRatio)
   }
 }

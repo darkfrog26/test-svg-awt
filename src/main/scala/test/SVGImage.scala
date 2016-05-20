@@ -7,12 +7,14 @@ import javax.swing.{ImageIcon, JFrame, JLabel}
 
 object SVGImage {
   def main(args: Array[String]): Unit = {
-    val frame = new JFrame("Testing")
-    val svg = SVGComponent(new File("analogclock.svg"))
+    /*val frame = new JFrame("Testing")
+    val svg = SVGComponent(new File("SlickComparison01.svg"))
     frame.getContentPane.setLayout(new BorderLayout)
     frame.getContentPane.add(svg, BorderLayout.CENTER)
     frame.pack()
     frame.setVisible(true)
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)*/
+
+    LayoutTest.create()
   }
 }
